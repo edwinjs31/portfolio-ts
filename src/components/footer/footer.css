@@ -11,7 +11,7 @@ footer a{
 }
 
 .footer__logo{
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
     margin-bottom: 1.5rem;
     display: inline-block;
@@ -62,10 +62,10 @@ footer a{
   @media screen and (max-width: 600px) {
     .permalinks{
         flex-direction: column;
-        gap: 1.5rem;
+        gap: 1rem;
     }
 
     .footer__socials{
-        margin-bottom: 2.6rem;
+        margin-bottom: 2rem;
     }
   }

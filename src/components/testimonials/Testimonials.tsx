@@ -1,4 +1,3 @@
-import React from 'react'
 import { dataTestimonials } from '../../utils/api';
 // import Swiper core and required modules
 import { Pagination } from 'swiper';
@@ -16,7 +15,6 @@ export const Testimonials = () => {
       <h5>Review from clients</h5>
       <h2>Testimonials</h2>
       <Swiper className="container testimonials__container"
-        // install Swiper modules
         modules={[Pagination]}
         spaceBetween={40}
         slidesPerView={1}

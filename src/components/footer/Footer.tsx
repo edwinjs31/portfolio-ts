@@ -1,6 +1,9 @@
 import {BsInstagram, BsFacebook, BsLinkedin} from 'react-icons/bs'
+
 import './footer.css'
+
 export const Footer = () => {
+
   return (
     <footer>
       <a href="#" className='footer__logo'>EDWIN</a>

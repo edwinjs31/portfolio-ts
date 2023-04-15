@@ -1,10 +1,11 @@
-import React from 'react';
-import './header.css';
-import ME from '../../assets/me.png';
-import { CTA } from './CTA';
 import { HeaderSocial } from './HeaderSocial';
+import { CTA } from './CTA';
+import ME from '../../assets/me.png';
+
+import './header.css';
 
 export const Header = () => {
+  
   return (
     <header>
       <div className='container header__container'>

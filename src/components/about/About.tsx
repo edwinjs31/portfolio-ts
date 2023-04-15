@@ -1,8 +1,10 @@
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
-import './about.css';
 import ME from '../../assets/me-about.jpg';
+
+import './about.css';
+
 export const About = () => {
   return (
     <section id='about'>
@@ -40,10 +42,7 @@ export const About = () => {
             iaculis ante fermentum. Aenean placerat vestibulum lacus quis efficitur. Donec volutpat sem sodales dolor
             pretium, ac bibendum lectus efficitur.
           </p>
-          <a
-            href='#contact'
-            className='btn btn-primary'
-          >
+          <a href='#contact' className='btn btn-primary'>
             Let's Talk
           </a>
         </div>

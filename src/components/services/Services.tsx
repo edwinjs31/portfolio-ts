@@ -1,7 +1,9 @@
-import React from 'react';
-import './services.css';
 import { BiCheck } from 'react-icons/bi';
+
+import './services.css';
+
 export const Services = () => {
+  
   return (
     <section id='services'>
       <h5>What I Offer</h5>

@@ -1,4 +1,4 @@
-import { MouseEventHandler, useState } from 'react';
+import { useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
 import { BsJournalBookmark, BsBriefcase } from 'react-icons/bs';
 import { RiServiceLine } from 'react-icons/ri';

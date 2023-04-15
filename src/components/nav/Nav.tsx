@@ -1,9 +1,10 @@
+import { MouseEventHandler, useState } from 'react';
 import { AiOutlineHome, AiOutlineUser } from 'react-icons/ai';
-import { BsJournalBookmark } from 'react-icons/bs';
+import { BsJournalBookmark, BsBriefcase } from 'react-icons/bs';
 import { RiServiceLine } from 'react-icons/ri';
 import { BiMessageSquareDetail } from 'react-icons/bi';
+
 import './nav.css';
-import { MouseEventHandler, useState } from 'react';
 
 export const Nav = () => {
   const defaultActiveNav = '#';
@@ -38,6 +39,13 @@ export const Nav = () => {
         onClick={() => seTactiveNav('#services')}
       >
         <RiServiceLine />
+      </a>
+      <a
+        href='#portfolio'
+        className={activeNav === '#portfolio' ? 'active' : ''}
+        onClick={() => seTactiveNav('#portfolio')}
+      >
+        <BsBriefcase />
       </a>
       <a
         href='#contact'

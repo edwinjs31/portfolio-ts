@@ -25,6 +25,7 @@
 
 html {
   scroll-behavior: smooth;
+  scrollbar-width: none;
 }
 
 ::-webkit-scrollbar {
@@ -119,6 +120,10 @@ img {
   }
   section {
     margin-top: 6rem;
+  }
+
+  header h1{
+    font-size: 2rem;
   }
 }
 

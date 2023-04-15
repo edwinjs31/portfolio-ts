@@ -1,6 +1,6 @@
-import React from 'react'
-import './portfolio.css'
-import { dataPortfolio } from '../../utils/api'
+import { dataPortfolio } from '../../utils/api';
+
+import './portfolio.css';
 
 export const Portfolio = () => {
   
